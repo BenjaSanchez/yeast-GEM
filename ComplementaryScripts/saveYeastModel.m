@@ -51,7 +51,8 @@ end
 copyfile('tempModel.xml','../ModelFiles/xml/yeastGEM.xml')
 delete('tempModel.xml');
 writeCbModel(model,'text','../ModelFiles/txt/yeastGEM.txt');
-exportForGit(model,'yeastGEM','..',{'yml'});
+exportForGit(model,'yeastGEM','../ModelFiles',{'yml'},false,false);
+movefile ../ModelFiles/yeastGEM.yml ../ModelFiles/yml
 
 %Detect boundary metabolites and save them in a .txt file:
 fid = fopen('../ModelFiles/boundaryMets.txt','wt');

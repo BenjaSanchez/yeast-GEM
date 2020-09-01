@@ -9,9 +9,13 @@
     - annotation: !!omap
       - bigg.metabolite: 13BDglcn
       - chebi: CHEBI:37671
+      - envipath: b545cabc-8c9e-4b20-8848-efa015b481ea
       - kegg.compound: C00965
+      - lipidmaps: LMPR0102010012
       - metanetx.chemical: MNXM6492
+      - sabiork.compound: 123
       - sbo: SBO:0000247
+      - slm: SLM:000048885
   - !!omap
     - id: s_0002
     - name: (1->3)-beta-D-glucan
@@ -29383,8 +29387,10 @@
         - 1.1.2.4
         - 1.1.99.-
       - bigg.reaction: D_LACDcm
+      - kegg.pathway: hsa00620
       - kegg.reaction: R00197
       - metanetx.reaction: MNXR138960
+      - sabiork.reaction: 123
       - sbo: SBO:0000176
     - confidence_score: 2
   - !!omap

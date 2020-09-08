@@ -16,7 +16,7 @@ model.metSLMID{1} = 'SLM:000048885';
 
 % rxnKEGGPathways
 model.rxnKEGGPathways = cell(size(model.rxns));
-model.rxnKEGGPathways{1} = 'hsa00620';
+model.rxnKEGGPathways{1} = 'hsa00620;sce00234';
 
 % rxnSABIORKID
 model.rxnSABIORKID = cell(size(model.rxns));

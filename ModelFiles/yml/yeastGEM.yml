@@ -29411,7 +29411,9 @@
         - "1.1.2.4"
         - "1.1.99.-"
       - bigg.reaction: "D_LACDcm"
-      - kegg.pathway: "hsa00620"
+      - kegg.pathway:
+        - "hsa00620"
+        - "sce00234"
       - kegg.reaction: "R00197"
       - metanetx.reaction: "MNXR138960"
       - sabiork.reaction: "123"
